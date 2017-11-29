@@ -51,17 +51,6 @@ public class DES {
 	}
 	
 
-	public static void main(String[] args) throws InvalidKeyException, NoSuchAlgorithmException, BadPaddingException, IllegalBlockSizeException, NoSuchPaddingException {
-		DES my=new DES();
-		byte[] encrypted=my.encryption("shykkbha".getBytes());
-		byte [] decrypted=my.decrption(encrypted);
-		
-		
-				
-		
-		
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }

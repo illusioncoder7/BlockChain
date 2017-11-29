@@ -54,15 +54,10 @@ public class AES {
 		
 		
 	}
-	public static void main(String[] args) throws NoSuchAlgorithmException, UnsupportedEncodingException, InvalidKeyException, NoSuchPaddingException, InvalidAlgorithmParameterException, IllegalBlockSizeException, BadPaddingException {
-		AES newAes=new AES();
-		newAes.KeyGeneration("thenewworld");
-		byte[] encrpted=newAes.encrpypt("encrpt me");
-		byte[] decrpted=newAes.decrypt(encrpted);
+	
 		
 		
-		
-	}
+	
 	}
 	
 
